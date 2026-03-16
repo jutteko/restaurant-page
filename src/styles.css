@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/hero-background.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 30px 0 50px 0;
+}
+
+.btn-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+.header-btn {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #9c8a03;
+  border-radius: 10px;
+  outline: #fdefd4 1px solid;
+  outline-offset: 2px;
+}
+.restaurant-titel {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 8rem;
+  font-family: Cinzel, serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: #fdefd4;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.91);
+  background: #9c8a0348;
+}
+.titel-tekst {
+  color: #250700;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
+  width: 40%;
+  margin-left: 15rem;
+  background: rgba(255, 255, 255, 0.6);
+  margin-top: 2rem;
+  border-radius: 15px;
+  padding: 2rem 5rem 2rem 2rem;
+}
+.home-page-knoppen-container {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.home-page-btn {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border: none;
+  background-color: #9c8a03;
+  border-radius: 10px;
+  outline: #fdefd4 2px solid;
+  outline-offset: 1px;
+}
+
+/*styling menu
+*/
+.menu-container {
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 5rem;
+}
+.menu-titel {
+  color: #271107;
+  border-bottom: 1px solid #271107;
+  font-size: 4rem;
+  font-weight: 300;
+  padding: 1rem 0 1rem 3rem;
+  margin-bottom: 3rem;
+  width: 95%;
+}
+.gerecht-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.type-naam {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 1.5rem 0 0.4rem 3rem;
+  font-style: italic;
+  color: #271107;
+}
+.gerecht-naam {
+  margin-left: 3rem;
+  font-weight: 300;
+}
+.gerecht-naam::first-letter {
+  font-size: 1.2rem;
+  color: #635700;
+  font-weight: 700;
+}
+.gerecht-prijs {
+  margin-right: 3rem;
+  font-weight: bold;
+  color: #635700;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-container-centraal {
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.contact-links {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.beeld-bcn {
+  width: 100%;
+  object-fit: contain;
+}
+.contact-rechts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.adres-container {
+  background-color: rgba(170, 21, 27, 0.5);
+  margin-left: 10px;
+}
+.telefoon-container {
+  background-color: rgba(241, 191, 0, 0.5);
+  margin-left: 10px;
+}
+.mail-container {
+  background-color: rgba(170, 21, 27, 0.5);
+  margin-left: 10px;
+}
+.contact-rechts div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 33.33%;
+  padding-left: 1rem;
+}
+.adres-titel {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
